@@ -69,3 +69,21 @@ else {
     }
     console.log(`The factorial of ${number} is ${fact}.`);
 }
+
+
+
+//Medium
+
+//Q1
+function add(a,b){
+
+  return a+b;
+}
+
+//Q2
+
+const name = prompt("Enter your name: ");
+const number = parseInt(prompt("Enter your number: "));
+
+
+console.log("{Name:"+name+","+"Number:"+number+"}");
