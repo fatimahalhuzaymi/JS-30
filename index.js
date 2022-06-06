@@ -105,15 +105,14 @@ while (true) {
 }
 
 //Q4
-  function sum(arr) { 
-        let sum = 0; 
-        for (let i = 0; i < arr.length; i++) 
-    
-            sum += arr[i]; 
-   
-       return sum; 
-    } 
+  let arr = [5,6,11,7,2,10,5,2,7];
 
-    let arr = [2,2, 4,];
-    
-    console.log("Sum of given array is " + sum(arr));
+for(let i=0;i<arr.length;i=i+3){
+if(arr[i]+arr[i+1]===arr[i+2]){
+    console.log(arr[i]+" and  "+ arr[i+1]+"  is equal to "+arr[i+2]);
+   
+}else{
+    console.log(arr[i]+" and "+arr[i+1]+"  is not equal to "+arr[i+2]);
+
+}
+}
